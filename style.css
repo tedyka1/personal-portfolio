@@ -2,7 +2,6 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "DynaPuff", cursive;
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
@@ -44,6 +43,7 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
+  font-family: "DynaPuff", cursive;
   font-weight: bold;
   text-transform: capitalize;
 }
@@ -76,6 +76,7 @@ nav ul li a:hover {
 }
 
 h1 {
+  font-family: "DynaPuff", cursive;
   color: white;
   margin: 15px 0px 20px;
   font-size: 65px;
@@ -155,6 +156,7 @@ h4 {
 
 .about-text h2 {
   color: white;
+  font-family: "DynaPuff", cursive;
   font-size: 75px;
   text-transform: capitalize;
   margin-bottom: 20px;
@@ -201,6 +203,7 @@ button:hover {
 
 .title h2 {
   color: white;
+  font-family: "DynaPuff", cursive;
   font-size: 75px;
   width: 1130px;
   margin: 30px auto;
@@ -263,4 +266,97 @@ h5 {
   background-color: transparent;
   border: 2px solid #478397;
   cursor: pointer;
+}
+
+.contact-me {
+  width: 100%;
+  height: 290px;
+  background-color: #191919;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-me p {
+  color: white;
+  font-family: "DynaPuff", cursive;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.contact-me .button-two {
+  background-color: #478397;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+.contact-me .button-two:hover {
+  background-color: transparent;
+  border: 2px solid #478397;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #101010;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p:nth-child(1) {
+  font-family: "DynaPuff", cursive;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+footer p:nth-child(2) {
+  font-size: 17px;
+  color: white;
+  width: 500px;
+  text-align: center;
+  line-height: 26px;
+}
+
+.social {
+  display: flex;
+}
+
+.social a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #478397;
+  color: white;
+  border-radius: 50%;
+  margin: 22px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.end {
+  position: absolute;
+  color: #478397;
+  bottom: 35px;
+  font-size: 14px;
 }
